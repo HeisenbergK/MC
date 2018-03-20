@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e19fa819-5a98-41ea-8889-1097498db8fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mc_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MC.iml" afterPath="$PROJECT_DIR$/.idea/MC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mc_main.py" afterPath="$PROJECT_DIR$/mc_main.py" />
     </list>
@@ -36,8 +33,8 @@
       <file leaf-file-name="mc_main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mc_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="714">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +60,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mc_main.py" />
         <option value="$PROJECT_DIR$/mc_test.py" />
+        <option value="$PROJECT_DIR$/mc_main.py" />
       </list>
     </option>
   </component>
@@ -311,6 +308,14 @@
       <option name="presentableId" value="Default" />
       <updated>1521543809478</updated>
     </task>
+    <task id="LOCAL-00001" summary="added montecarlo and tester">
+      <created>1521554455007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521554455007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -343,6 +348,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added montecarlo and tester" />
+    <option name="LAST_COMMIT_MESSAGE" value="added montecarlo and tester" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -350,8 +359,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mc_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
