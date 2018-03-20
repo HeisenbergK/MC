@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e19fa819-5a98-41ea-8889-1097498db8fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mc_newfit.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mc_main.py" afterPath="$PROJECT_DIR$/mc_main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,16 +13,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MC$mc_test.coverage" NAME="mc_test Coverage Results" MODIFIED="1521551736854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MC$mc_newfit.coverage" NAME="mc_newfit Coverage Results" MODIFIED="1521555878434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MC$mc_test.coverage" NAME="mc_test Coverage Results" MODIFIED="1521554853765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mc_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mc_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mc_test.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mc_newfit.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mc_newfit.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="793">
-              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -60,8 +73,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mc_test.py" />
         <option value="$PROJECT_DIR$/mc_main.py" />
+        <option value="$PROJECT_DIR$/mc_test.py" />
+        <option value="$PROJECT_DIR$/mc_newfit.py" />
       </list>
     </option>
   </component>
@@ -126,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mc_test">
+  <component name="RunManager" selected="Python.mc_newfit">
     <configuration default="false" name="mc_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,6 +155,25 @@
       <module name="MC" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mc_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mc_newfit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mc_newfit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,12 +321,14 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.mc_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mc_newfit" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.mc_test" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.mc_newfit" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mc_test" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521554455007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added montecarlo for more input distributions">
+      <created>1521554819128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521554819128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -350,7 +392,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added montecarlo and tester" />
-    <option name="LAST_COMMIT_MESSAGE" value="added montecarlo and tester" />
+    <MESSAGE value="added montecarlo for more input distributions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added montecarlo for more input distributions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -367,8 +410,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mc_test.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mc_newfit.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="793">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
