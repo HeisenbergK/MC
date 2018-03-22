@@ -28,7 +28,7 @@ def gauss_function(x, a, x0, sigma):
 inputs = [[147.0, 20.0]]
 
 # monte carlo test
-results = montecarlo(logfunc, inputs, 1000000)
+results = montecarlo(logfunc, inputs, 10000000, llimit=0, ulimit=np.inf)
 
 # statistics on results
 newmn = np.mean(results)
@@ -67,6 +67,10 @@ print('Percentage within 3 std: %.2f %%' % ((initial3/newle)*100.0))
 hist, edges = np.histogram(results, bins=1000)
 edges = np.subtract(edges, ((edges[2]-edges[1])/2.0))
 edges = np.delete(edges, 0)
+maxhis = max(hist)
+maxloc = hist.tolist().index(maxhis)
+newmd = edges[maxloc]
+print('Mode of results: %.5f' % newmd)
 # hist = np.divide(hist, newle)
 mintofit = newmn-(4.0*newst)
 maxtofit = newmn+(4.0*newst)
@@ -89,4 +93,4 @@ plt.plot(edges, hist)
 plt.plot(edges, gauss_function(edges, *gopt))
 plt.show()
 
-print("Gaussian: Amplitude=%.5f, Mean=%.5f, Sigma=%.5f" % (gopt[0], gopt[1], gopt[2]))
+print("Gaussian: Amplitude=%.5f, Mean=%.5f, Sigma=%.5f" % (gopt[0], gopt[1], np.abs(gopt[2])))
