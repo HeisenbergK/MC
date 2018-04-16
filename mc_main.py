@@ -2,8 +2,12 @@ import numpy as np
 import progressbar
 
 
-def montecarlo(probe, inputed, limit, llimit, ulimit):
+def montecarlo(probe, inputed, limit, exc, llimit=(-np.inf), ulimit=np.inf):
     results = []
+    if not exc:
+        exc = []
+        for i in range(0, len(inputed)):
+            exc.append([])
     with progressbar.ProgressBar(widgets=[progressbar.Bar(), ' ', progressbar.RotatingMarker(), ' ',
                                           progressbar.Percentage(), ' ', progressbar.SimpleProgress(), ' ',
                                           progressbar.Timer(), ' ', progressbar.ETA()], max_value=limit) as bar:
@@ -14,7 +18,7 @@ def montecarlo(probe, inputed, limit, llimit, ulimit):
                 stdev = inputed[j][1]
                 while True:
                     value = np.random.normal(loc=locat, scale=stdev)
-                    if llimit < value < ulimit:
+                    if (llimit < value < ulimit) and (value not in exc[j]):
                         inputsrand.append(value)
                         break
             result = probe(inputsrand)
